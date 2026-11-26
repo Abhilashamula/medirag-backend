@@ -70,7 +70,11 @@
     <artifactId>poi-ooxml</artifactId>
     <version>5.4.1</version>
 </dependency>
-
+<dependency>
+    <groupId>org.openpnp</groupId>
+    <artifactId>opencv</artifactId>
+    <version>4.9.0-0</version>
+</dependency>
 <!-- CSV parsing -->
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -98,6 +102,8 @@
     <artifactId>tika-parsers-standard-package</artifactId>
     <version>3.2.3</version>
 </dependency>
+<!-- OpenCV image processing and table detection -->
+
 	</dependencies>
 
 	<build>
